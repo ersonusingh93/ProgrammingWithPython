@@ -1,0 +1,14 @@
+MWF : 
+11 to 12:30 PM : PHP + Laravel - 3 months
+2 to 3:30 - PHP + Laravel - 4 months
+3:30 to 5 - Python  - 4 months
+6 to 7:30 - Java - 6 to 8 months
+
+TTS : 
+11 to 12:30 - Python with ML
+12:30 to 1:30 - Python with ML
+2 to 3:30 - Data Analytics , python
+3:30 to 5 : Data Analytics
+6 to 7:30 - PHP + Laravel
+
+

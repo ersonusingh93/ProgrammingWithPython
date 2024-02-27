@@ -1,0 +1,10 @@
+Programming : 
+Data types : 
+Operators : 
+Arithmetic
+Logical : and, or , not
+Bitwise  : &, |, ~
+Assignment
+Relational
+Ternary
+Looping : 

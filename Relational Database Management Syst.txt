@@ -1,0 +1,27 @@
+Relational Database Management System : 
+DDL : Create, Alter, Drop, Truncate
+DML : Insert, Update, Delete, Call, Explain Call
+Drop  : 
+Truncate : 
+
+Schema : Table
+Record : Tuple : Row
+Fields : Column
+
+
+Drop - it will permanently delete the database/table - it can't be rollback
+Truncate - Schema - data will delete but structure will remains same
+
+constraints : 
+primary key
+not null
+default
+check
+unique
+
+create table <table-name>(column_name data type...................);
+alter table <table-name> add column datatype;
+
+Trigger : 
+
+6 to 8 pm
