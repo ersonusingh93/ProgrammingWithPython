@@ -1,0 +1,190 @@
+#Object Oriented Programming
+#Class : collection of instances : user defined data type
+#Object : instance of class : 
+#Constructor : it will use to initalize the objects of class
+#Aggregation : has a relationship
+#Inheritance : parent class ------> Child class
+#Encapsulation : wrapping of data
+#self keyowrd : The self keyword in Python is used to represent the instance of the class. It is used to access the attributes and methods of the class. The self parameter doesn't have to be named self, but it must be the first parameter of any function in the class.
+#Abstraction : hiding of unnecessary data from user
+#Polymorphism : more than one form
+access : 
+
+# class Dog:
+#     species = "Canis lupus"
+#     def __init__(self, color, weight, height):
+#         self.color = color
+#         self.weight = weight 
+#         self.height = height
+
+# class Car:
+#     def __init__(self, color, model, price):
+#         self.color = color 
+#         self.model = model 
+#         self.price = price
+#     def displayCarData(self):
+#         print(f'{self.color} {self.model} {self.price}')
+
+# skoda = Car("white","rapid",1500000)
+# skoda.displayCarData()
+
+# class Car:
+#     def __init__(self, color, model, price): #constructor
+#         self.color = color 
+#         self.model = model 
+#         self.price = price
+#     def displayData(self): #Method
+#         print(f'Car color is : {self.color} and model is {self.model} with price {self.price}')
+
+# skoda = Car("white","rapid",1500000) #constructor calling
+
+# skoda.displayData() #method calling
+
+# inheritance : parent class -----> Child class
+
+#Parent class
+# class Person:
+#     def __init__(self, fname, lsname):
+#         self.fname = fname
+#         self.lsname = lsname
+#     def displayData(self):
+#         print("{}-{}".format(self.fname, self.lsname))
+
+# class Student(Person):
+#     def __init__(self, fname, lsname):
+#         self.fname = fname 
+#         self.lsname = lsname
+
+
+# class HelloWorld:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age 
+#     def displayData(self):
+#         print(f'Welcome {self.name} your age is {self.age} years')
+
+
+# data = HelloWorld("Ram", 25)
+# data.displayData()
+    
+        
+class Person:
+    def __init__(self, fname, lname):
+        self.fname = fname
+        self.lname = lname 
+
+    def displayName(self):
+        print(self.fname, self.lname)
+
+class Student(Person):
+    def _init__(self, fname, lname):
+        self.fname = fname
+        self.lname = lname 
+    def display(self):
+        print("{} => {}".format(self.fname, self.lname))
+
+stu = Student("Ram", "Sharma")
+stu.display()
+stu.displayName()
+
+# class Person:
+#     def __init__(self, fname, lname):
+#         self.firstName = fname 
+#         self.lastName = lname
+#     def printName(self):
+#         print(self.firstName, self.lastName)
+# class Student(Person):
+#     def __init__(self, fname, lname):
+#         super().__init__(fname, lname)
+#         self.graduate = 2014
+
+# stu = Student("Ram", "Sharma")
+# stu.printName()
+
+# print(stu.graduate)
+
+class Animal:
+    def __init__(self, name):
+        self.name = name 
+        print(self.name + "Was Adopted")
+    def run(self):
+        print("Running!!!!!")
+
+class Turtle(Animal):
+    def __init__(self, name):
+        super().__init__(name)
+
+    def run(self):
+        print("Turtle running ver slowly")
+
+tim = Turtle("Timmy")
+
+tim.run()
+
+The super() function is used to give access to methods and properties of a parent or sibling class. The super() function returns an object that represents the parent class.
+
+#Parent Class
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name 
+#     def printName(self):
+#         print(self.name)
+
+# #Child Class
+# class Dog(Animal):
+#     def __init__(self, name, age):
+#         self.name = name 
+#         self.age = age 
+#     def showData(self):
+#         print(self.name, self.age)
+
+
+# dog = Dog("Rocky", 5)
+# dog.printName()
+# dog.showData()
+
+# class Animal:
+#     def __init__(self, name, age):
+#         self.name = name 
+#         self.age = age
+#     def printName(self):
+#         print(self.name)
+
+# #Child Class
+# class Dog(Animal):
+#     def __init__(self, name, age):
+#         super().__init__(name, age)
+#     def showData(self):
+#         print(self.name, self.age)
+
+
+# dog = Dog("Rocky", 5)
+# dog.printName()
+# dog.showData()
+
+
+#Inheritance
+#Encapsulation
+#Abstraction
+#Polymorphism
+
+class Whale:
+    def swim(self):
+        print("The whale is swimming")
+    def swimBacwards(self):
+        print("Whale cannot swim backwards but sink backwards")
+    def skeleton(self):
+        print("This is whale skeleton")
+class Starfish():
+    def swim(self):
+        print("The starfish is swimming")
+    def swimBacwards(self):
+        print("starfish cannot swim backwards but sink backwards")
+    def skeleton(self):
+        print("This is starfish skeleton")
+    
+
+whale = Whale()
+
+starfish = Starfish()
+
