@@ -1,0 +1,527 @@
+What is Programming?
+Programming is set of Algorithm which achieve different types of goals
+
+Data Structures 
+
+Time Complexity
+Space Compexity
+
+Big O Notation : 
+
+High Level Programming : 
+C, C++, Rust, Python, Go, Swift, Java, Perl, Ruby and Rails, C#
+
+Low Level Programming : 
+Binary
+
+ASCII : American Standard Code for Information Interchange
+
+A  : 65 
+
+Z : 90
+
+
+a : 97
+
+z : 122
+
+
+FORTRAN : Formula Translation : 
+
+COBOL : Common Business Oriented Programming Language
+
+Pascal : 
+
+BCPL : Basic Combined Programming Language - AT & T - Martin Richards
+
+B : Ken Thmopson
+
+C : Ken Thompson and Dennis Ritchie : UNIX 
+
+Decimal System -------------------> Binary System
+Binary System --------------------> Decimal System
+
+Data Types : 
+Data : raw facts - smallest entity of any information
+
+"Ranmal"
+
+String - Sequence of charachters
+
+254 - integer - int - 4 bytes - 
+
+
+3.6548 - decimal - float/double - 4 bytes/ 8 bytes
+
+'a' - charachter - char - 1 byte
+
+
+Power of Data : 
+10 cr - SBI - MD : 1rs -> A/c
+
+Type Casting : 
+Implicit -> int -> float => 2 => 2.0
+Explicit -> float -> int => 2.5 => 2
+
+Variable : is used to store the value in memory location
+
+Structure of C : 
+#include<stdio.h>
+int main()
+{
+    return 0;
+}
+
+# -preprocessor
+stdio.h - standard input output header file
+printf() - write/show
+main() - compiler will start execution
+scanf() - read/input
+
+#include<stdio.h>
+int main()
+{
+    printf("C Programming");
+    
+    return 0;
+}
+
+Escape Sequences : 
+\n
+\t
+\r
+
+
+#include<stdio.h>
+int main()
+{
+    printf("C Programming \n");
+    printf("C++ Programming");
+    
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    printf("C Programming \t");
+    printf("C++ Programming");
+    
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    printf("C Programming \r");
+    printf("C++ Programming");
+    
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    printf("C Programming \n\r");
+    printf("C++ Programming");
+    
+    return 0;
+}
+
+Format Specifier : 
+int - %d - 4 bytes
+float - %f - 4 bytes
+double - %lf - 8 bytes
+char - %c - 1 byte
+
+#include<stdio.h>
+int main()
+{
+    int age = 25;
+    printf("Your age is  : %d\n", age);
+    printf("Address Of variable is : %p", &age);
+    return 0;
+}
+
+Day 3 : 
+
+#include<stdio.h>
+int main()
+{
+    int x = 0; //initialization of variable
+
+    // int x; //declaration
+
+    printf("Enter value of x : ");
+    scanf("%d", &x);
+    printf("Value of x is : %d", x);
+
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int x = 0; //initialization of variable
+
+    // int x; //declaration
+
+    printf("Enter value of x : "); // print
+    scanf("%d", &x);
+    printf("Value of x is : %d\n", x);
+    printf("Address of variable is  : %p\n", &x);
+    printf("Size of variable is : %d", sizeof(x));
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int x = 0;
+    int y = 0;
+    printf("Enter value of x : ");
+    scanf("%d", &x);
+    printf("Enter value of y : ");
+    scanf("%d", &y);
+    int add  = x + y;
+    printf("Addition of numbers are : %d", add);
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int x = 0;
+    int y = 0;
+    printf("Enter value of x : ");
+    scanf("%d", &x);
+    printf("Enter value of y : ");
+    scanf("%d", &y);
+    int subs  = x - y;
+    printf("Substraction of numbers are : %d", subs);
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int x = 0;
+    int y = 0;
+    printf("Enter value of x : ");
+    scanf("%d", &x);
+    printf("Enter value of y : ");
+    scanf("%d", &y);
+    int subs = x - y;
+    printf("Substraction of numbers are : %d", subs);
+    return 0;
+}
+Operators :
+Arithmetic operator : +, -, *, /, %
+Relational operator : >, <, >=, <=, ==, !=
+Logical operator : &&, ||, !
+Bitwise operator : &, |, ~
+Ternary operator : (condition) ? true : false
+Assignment operator : =, +=, -=, *=, /=, %=
+
+Header files : 
+#include<stdio.h>
+#include<math.h>
+#include<string.h>
+#include<stdlib.h>
+
+
+#Area of circle : pi * r * r
+#pi=3.1415926583
+#rectangle area : length * breadth
+
+Relational operator : 
+>, <, >=, <=, ==, !=
+
+Decision control structure : 
+if
+if else
+if else if else
+
+Looping : 
+while
+do..while
+for
+
+
+Programms : 
+#include<stdio.h>
+int main()
+{
+    int n = 0;
+    int i = 0;
+    printf("Enter the number : ");
+    scanf("%d", &n);
+    while(i<=n){
+        if(i%2==0){
+            printf("%d", i);
+        }
+        i=i+1;
+
+    }
+    return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int n = 0;
+    printf("Enter the value of n : ");
+    scanf("%d", &n);
+    if(n>0){
+        printf("Number is +ve");
+    }else if(n<0){
+        printf("Number is negative");
+    }else{
+        printf("Number is Zero");
+    }
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int year = 0;
+//     printf("Enter the year : ");
+//     scanf("%d", &year);
+//     if((year%4==0 && year%100==0) ||(year%400==0)){
+//         printf("Leap year");
+
+//     }else{
+//         printf("Not leap year");
+//     }
+//     return 0;
+// }
+
+/*
+while(1){
+}
+
+while(0){
+}
+
+*/
+// #include<stdio.h>
+// int main()
+// {
+//     int year = 0;
+//     printf("Enter the year : ");
+//     scanf("%d", &year);
+//     if((year%4==0 && year%100!=0) ||(year%400==0)){
+//         printf("Leap year");
+
+//     }else{
+//         printf("Not leap year");
+//     }
+//     return 0;
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     int i=0;
+//     while(i<=10){
+//         printf("%d ", i);
+//         i=i+1;
+//     }
+//     return 0;
+// }
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int i=0;
+//     while(i<=10){
+//         if(i%2==0){
+//             printf("%d ", i);
+//         }
+//         i=i+1;
+//     }
+//     return 0;
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     int i=0;
+//     while(i<=10){
+//         if(i%2==1){
+//             printf("%d ", i);
+//         }
+//         i=i+1;
+//     }
+//     return 0;
+// }
+
+
+    return 0;
+}
+
+
+#include<stdio.h>
+#include<math.h>
+#define PI 3.1415926583
+int main()
+{
+    //naming convention 
+    //PascalCase - class
+    //camleCase - function and methods
+    //snake_case - variables
+    int raidus_of_circle = 0;
+    printf("Enter the radius of circle : ");
+    scanf("%d", &raidus_of_circle);
+    float area_of_circle = PI * pow(raidus_of_circle, 2);
+    printf("Area of circle is : %f", area_of_circle);
+    return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int year = 0;
+    printf("Enter the year : ");
+    scanf("%d", &year);
+    if((year%4==0 && year%100!=0) ||(year%400==0)){
+        printf("Leap year");
+    }else{
+        printf("Not leap year");
+    }
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int year = 0;
+    printf("Enter the year : ");
+    scanf("%d", &year);
+    if((year%4==0 && year%100!=0) ||(year%400==0)){
+        printf("Leap year");
+    }else{
+        printf("Not leap year");
+    }
+    return 0;
+}
+
+/*
+Truth Table : 
+AND
+True    True    True
+True    False   False
+False   True    False
+False   False   False
+
+
+OR
+True    True    True
+True    False   True
+False   True    True
+False   False   False
+
+NOT
+
+True    => False
+False   =? True
+
+XOR
+True    True    False
+True    False   True
+False   True    True
+False   False   False
+
+#include<stdio.h>
+int main()
+{
+    //Reverse of number
+    //sum of digits
+    //armstrong
+    //fibonnaci
+    //neon
+    //count of digits
+
+    // printf("%d", 42 | 64);
+    return 0;
+}
+
+Data types : 
+int - 2,4,5,6,7,8 -> %d -> 4 bytes
+float - 2.56,2.145 -> %f -> 4 bytes
+double - 2.446464 -> %lf -> 8 bytes
+char - 'a', 'B' -> %c -> 1 byte
+
+Operators : 
+Arithmetic : +, -, *, / , %
+Logical : &&, ||, !
+Relational : >, <, >=, <=, ==, !=
+Ternary : (condition) ? true : false
+Bitwise : &, |, ~
+Assignment : =, +=, -=, *=, /=, %=
+
+Decision Control Structure : 
+if
+if else
+if else if else
+
+
+Looping:
+for
+while
+do...while
+
+function : 
+
+Pointers : 
+
+
+Either I like Shraddha or Puja
+
+I like tea and coffee
+
+AND : 
+
+True	True	True
+True	False	False
+False	True	False
+False	False	False
+
+OR : 
+True	True	True
+True	False	True
+False	True	True
+False 	False	False
+
+NOT : 
+True	False
+False	True
+
+Function : 
+call by value : 
+call by reference : 
+
+copy :
+shallow copy
+deep copy
+
+A shallow copy of an object is a new object whose instance variables are identical to the old object. For example, a shallow copy of a Set has the same members as the old Set, and shares objects with the old Set through pointers. Shallow copies are sometimes said to use reference semantics.
+
+A deep copy of an object is a new object with entirely new instance variables; it does not share objects with the old. For example, a deep copy of a Set not only makes a new Set, but also inserts items that are copies of the old items. In a true deep copy, this copying is done recursively. Deep copies are sometimes said to use value semantics.
+
+function : 
+user defined function :
+predefined function : main(), printf() etc
+
+
+array : 
+What is an array ? 
+Array is collection of homogeneous data type
+array  length : 
+int arr[10] = {2,4,5,6,7,8,9,7,1}
+
+
+*/
