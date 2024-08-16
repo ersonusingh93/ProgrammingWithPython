@@ -1,0 +1,96 @@
+Python Coding Challenges on Strings
+Write a function in Python to check duplicate letters. It must accept a string, i.e., a sentence. The function should return True if the sentence has any word with duplicate letters, else return False. 
+Write a code in Python to create a Morse code translator. You can take a string with alphanumeric characters in lower or upper case. The string can also have any special characters as a part of the Morse code. Special characters can include commas, colons, apostrophes, exclamation marks, periods, and question marks. The code should return the Morse code that is equivalent to the string.
+Write a function to detect 13th Friday. The function can accept two parameters, and both will be numbers. The first parameter will be the number indicating the month, and the second will be the year in four digits. Your function should parse the parameters, and it must return True when the month contains a Friday with the 13th, else return False. 
+Write a function to find the domain name from the IP address. The function will accept an IP address, make a DNS request, and return the domain name that maps to that IP address while using records of PTR DNS. You can import the Python socket library.
+Write a function in Python to parse a string such that it accepts a parameter- an encoded string. This encoded string will contain a first name, last name, and an id. You can separate the values in the string by any number of zeros. The id will not contain any zeros. The function should return a Python dictionary with the first name, last name, and id values. For example, if the input would be "John000Doe000123". Then the function should return: { "first_name": "John", "last_name": "Doe", "id": "123" }
+Write a function in Python to convert a decimal to a hex. It must accept a string of ASCII characters as input. The function should return the value of each character as a hexadecimal string. You have to separate each byte by a space and return all alpha hexadecimal characters as lowercase.
+Write a code in Python to find out whether a given string S is a valid regex or not.
+Python Coding Challenges on Numbers 
+Write a program in Python to -
+
+Convert decimal numbers to octal numbers.
+Reverse an integer.
+Print the Fibonacci series using the recursive method.
+Return the Nth value from the Fibonacci sequence.
+Find the average of numbers (with explanations).
+Convert Celsius to Fahrenheit.
+Python Coding Challenges on Array
+You must practice these Python coding challenges on Array as they are frequently asked in technical interviews. The interviewer will ask you to write a program in Python to -
+
+Find the largest and the smallest number in a given array.
+Find the second largest number in the integer array.
+Print array in reverse order.
+Insert an element at the end of an array.
+Merge two sorted arrays into a single sorted array.
+Python Coding Questions on Linked Lists
+Write a program in Python to -
+
+Merge two singly linked lists without creating new nodes.
+Find the middle element of the linked list in a single pass.
+Insert a node in a linked list.
+Find the sum of two numbers represented as linked lists.
+Find the second number of linked lists from the last in a single pass.
+Python Coding Challenges on Trees
+Write a code in Python to -
+
+Find the maximum possible path sum between two leaf nodes when given a binary tree with each node element containing a number. The leaf node is a node connected to exactly one different node.
+Given a binary tree T, find its height.
+Given a binary search tree, BT, write a code to count the leaves.  
+Given a binary tree T, write a code in Python to print the right view of the tree. 
+For a given binary tree T, write a code in Python to print the height of the binary tree.
+For a given AVL tree, insert a value into the tree from given N values to be inserted.
+Python Coding Questions on Decorators and Itertools
+You have to practice Python coding challenges based on decorators and itertools to create an impression on the interviewer. You will be asked to write a program in Python to -
+
+Make a chain of function decorators. 
+Standardize mobile numbers when given N mobile numbers. Sort them in ascending order. Print them in the standard format.
+Compress the given string S. If the string contains a character 'c,' that occurs X times consecutively. Replace 'c' with (X, c) in the string.
+Print all possible size k replacement combinations of the given string S in lexicographically sorted order.
+Build a name directory using decorators for a given piece of information about N people where every person’s name has first and last name, age, and sex. Sort their ages in ascending order and print their names accordingly. So, the name of the youngest person should be printed first. If there are two people of the same age, then you print them in the order of their input.
+Also, read about how long does it take to learn Python.
+
+Advanced Python Coding Challenges for Practice
+You can practice your Python skills with these advanced Python coding challenges. These code challenges are mini problems, and they don't take that long to finish. 
+
+Write a function named 'format_number' that takes a non-negative number as its only parameter. Your function should convert the number to a string and add commas as a thousand separators. For example, calling format_number(1000000) should return "1,000,000". 
+Hint: Convert the number to a string and iterate over each digit. Iterate backward, or start by reversing the string, to make your life easier.
+
+Define a function named triple_and that takes three parameters and returns True only if they are all True and False otherwise.
+Define a function named all_equal that takes a list and checks whether all elements in the list are the same. For example, calling all_equal([1, 1, 1]) should return True.
+For a given linked list of N nodes, check if it has a loop (the linked list can contain self-loop).
+For a given string S, write a function to check if it is a palindrome. Taking a single string as its parameter, your function should return True if the given string is a palindrome, else return False (A string is said to be a palindrome if it is the same when read backward).
+You can practice some more free Python coding challenges by solving several problems available on the problems page. 
+
+How to Prepare for Advanced Python Coding Challenges for Tech Interviews?
+Coding is a challenging task in technical interviews. You must follow these steps to crack your next Python coding interview. 
+
+You must brush up on data structures such as lists, dictionaries, and tuples. You should be able to do the custom implementation of a class like LinkedList.
+If you are preparing for Python interviews, you should practice how to write some python constructs such as loops and control flow models on a whiteboard or paper. Several top companies have whiteboarding interview rounds.
+You must have a basic understanding of front-end technology, including HTML, JavaScript, CSS, and more.
+You must clearly understand the concepts of OOPs.
+You can also practice with industry experts in mock interviews. These mock interview sessions help you overcome interview anxiety while boosting your confidence and strengthening weak areas. 
+You must approach each question strategically. You should fully understand the given problem and then work through any example inputs in the task provided. Do not begin coding at this point; instead, you can use the brute force approach. You must optimize your solution and figure out the absolute best solution while considering the time complexities. Now you can code up your solution. 
+Most importantly, you need to practice thinking aloud and explaining the code you have written. When you think out loud, you present your approach to the recruiters. This practice can help you gain points even if you do not arrive at the optimal solution.
+If you are preparing for coding challenges, you must go through Google's coding challenges and learn how to prepare for them.
+
+FAQs on Advanced Python Coding Challenges
+Q1. What topics are asked in advanced Python coding challenges?
+
+You should prepare some advanced topics in Python such as map function, itertools, lambda function, decorators, generators, threading, collections, and magic methods for technical interviews.
+
+Q2. Are advanced Python coding challenges given in senior software engineer interviews at FAANG+ companies?
+
+You must practice basic and advanced Python coding challenges for senior software engineer interviews in addition to distributed systems design and algorithms. Top companies like Google and YouTube prefer Python for coding interviews.
+
+Q3. Which data structures are essential for advanced Python coding challenges?
+
+You must know some important data structures for advanced Python coding challenges such as Array/List, Linked list, Queue, Stack, Hash tables, Trees (binary), and Graphs.
+
+Q4. Will competitive advanced Python coding challenges help me crack Python software developer job interviews?
+
+You can certainly have the edge over other competitors if you ace competitive advanced Python coding challenges, and this will multiply your chances of landing a Python software developer job interview. 
+
+Q5. What coding topics should I prepare to solve advanced Python coding challenges in technical interviews?
+
+You must prepare Arrays, Strings, Linked Lists, Trees, Graphs, Recursion, Greedy Algorithms, and Dynamic Programming to solve advanced Python coding challenges in technical interviews.
