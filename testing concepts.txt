@@ -1,0 +1,170 @@
+Error: A human mistake made in code or design.
+Example: A developer mistakenly uses the wrong formula for tax calculation.
+
+Bug: A flaw in the software causing incorrect results.
+Example: Clicking a button does nothing due to missing event handling.
+
+Defect: A variation from requirements found during testing.
+Example: The login page allows access with an invalid password.
+
+Causes of Defects: Poor requirement gathering, miscommunication, time constraints, etc.
+
+
+
+Quality and Risk: Types of Risks
+
+Quality: Ensuring the software meets defined requirements with minimal defects.
+Risk: The possibility of software failure.
+
+Types of Risks:
+
+Business Risks: Software does not meet market needs.
+Technical Risks: Software is difficult to develop due to technology limitations.
+Operational Risks: System failures or downtime.
+Security Risks: Data breaches or vulnerabilities.
+Example: If a banking app has a security loophole allowing unauthorized transactions, it's a security risk.
+
+Test Organization : 
+
+Tester: Executes test cases and reports defects.
+Test Leader: Manages the testing team and ensures testing is on track.
+Test Planning: Defining test scope, resources, schedule, and approach.
+
+QA vs. QC:
+
+Quality Assurance (QA): Focuses on process improvement. (E.g., code reviews)
+Quality Control (QC): Focuses on finding defects in the product. (E.g., functional testing)
+
+Testing vs. Debugging:
+
+Testing: Identifies defects.
+Debugging: Fixes defects.
+Example: A tester finds that the checkout page crashes; the developer then debugs and fixes the issue.
+
+Test Development Process : 
+
+Test Analysis:
+Understanding the application, gathering requirements, and identifying test conditions.
+
+Test Plan :
+Document describing test objectives, scope, strategy, resources, and timeline.
+
+Strategy
+
+High-level approach to testing (manual vs. automated, types of testing).
+HLR (High-Level Requirements)
+Defines what the system should do.
+
+Script :
+ 
+Set of automated test commands to validate functionality.
+
+Scenario :
+
+End-to-end workflow testing.
+Example: Testing a user’s journey from login to checkout in an eCommerce site.
+
+
+Cases : 
+
+Specific conditions under which a test is executed.
+Example: Test Case: Login with valid credentials.
+
+Traceability : 
+Ensuring all requirements are covered by test cases.
+
+Fundamental Test Process (STLC - Software Testing Life Cycle)
+
+Requirement Analysis : 
+
+Test Planning : 
+
+Test Case Development
+Test Environment Setup
+Test Execution
+Test Closure
+Example: If a shopping app adds a wishlist feature, testers first analyze requirements, plan tests, create test cases, set up an environment, execute tests, and report results.
+
+Psychology of Testing : 
+
+Testers must adopt a critical thinking mindset to break the system.
+Developers and testers should collaborate rather than work against each other.
+Avoiding confirmation bias (assuming the code works without testing edge cases).
+Example: A tester should assume a user might enter special characters in a name field and test for it.
+
+Software Development Models : 
+
+V-Model (Verification & Validation Model)
+Each development phase has a corresponding testing phase.
+Example: If developers design a login module, testers simultaneously write test cases.
+RAD (Rapid Application Development)
+Prototyping-focused approach with fast iterations.
+Example: An early version of an app is quickly built and refined based on feedback.
+
+
+Software Testing Levels : 
+
+Unit Testing : 
+
+Testing individual components.
+Example: Testing a login function to ensure it validates credentials correctly.
+
+Integration Testing : 
+
+Testing interactions between modules.
+Example: Ensuring that login credentials correctly fetch user details from the database.
+
+System Testing : 
+
+Testing the complete system.
+Example: Running all test cases on an eCommerce website before deployment.
+
+Acceptance Testing : 
+
+Ensuring the software meets business needs.
+Example: A client verifies whether an invoicing system meets their requirements.
+
+Alpha and Beta Testing : 
+
+Alpha Testing: Conducted by internal teams before release.
+
+Beta Testing: Conducted by real users in a live environment.
+
+Example: A company releases an alpha version of a video game for internal testing. After fixing major issues, they release a beta version for select players to test.
+
+Software Testing Definitions (ISTQB) : 
+
+Testing: Process of evaluating software to identify defects.
+Test Case: A set of preconditions and expected results to verify functionality.
+Defect: A deviation from expected results.
+Regression Testing: Ensuring new changes don’t break existing functionality.
+
+Test Design Techniques : 
+
+Black Box Testing:
+
+Testing without knowing the internal code.
+Example: Entering an invalid email in a signup form to see if the validation works.
+
+White Box Testing:
+Testing internal logic and code.
+Example: Checking if all conditions in an if-else statement are covered.
+
+Equivalence Partitioning:
+Dividing input data into valid and invalid groups.
+Example: Testing an age field with values (Valid: 25, Invalid: -5).
+
+Boundary Value Analysis:
+
+Testing limits of input fields.
+Example: If a password requires 8-16 characters, test with 7, 8, 16, and 17 characters.
+State Transition Testing:
+Testing different states of an application.
+Example: Testing a banking app that allows login only after successful OTP validation.
+
+Decision Table Testing:
+Testing complex logic with multiple conditions.
+Example: Checking discount eligibility based on user type (new/old) and purchase amount.
+Conclusion
+
+Understanding software testing is crucial for delivering high-quality software. By following structured processes and using various testing techniques, teams can minimize defects and risks, ensuring a seamless user experience.

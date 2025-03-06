@@ -1,0 +1,206 @@
+Tester : 
+Role : 
+Responsible for executing the test cases and reporting defects
+
+Activities : 
+Understanding the requirements and creating test cases
+executing test(manual or automated) based on their test plan
+Reporting 
+Documentation of result
+
+Agile Methodology : 
+
+Project Manager : 
+
+Scrum master : 
+
+Scrum team : 
+
+sprint  : 
+A sprint is a short, time-bound period in which a Scrum team works to complete a set of tasks. Sprints are a key part of Scrum, an agile framework for managing projects. 
+
+Project : Ecommerce : 
+
+Our highest priority is to satisfy the customer throught early and continuous delivery of valuable software
+Welcome changing requirements even late in development. 
+
+Agile processes harness change for the customer`s ompetitive advantage
+
+Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale
+
+Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely
+
+Working software is the primary measure of progress
+
+
+Product
+
+Simplicity is essential
+
+Continuous attention to technical excellence and good design enchances agility
+
+User interface and user experience should be better
+
+
+People : 
+
+
+The most efficient and effective method of conveying information to and within a development team is face-to-face conversation
+
+Bussines and developers must work together daily throughout the project
+
+The best archictectures, requirements, and designs emerge from self-organizing teams
+
+Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+
+
+Process : 
+
+At regular intervals, the team reflect on how to become more effective, then tunes and adjusts its behaviour accordingly
+
+
+SCRUM Theory : 
+
+Scrum is founded on empiricism and lean thinking. Empiricism asserts that knowledge comes from experience and making decisions based on what is observed. Lean thinking reduces waste and focuses on the essentials.
+
+Transparency: The emergent process and work must be visible to those performing the work as well as those receiving the work.
+
+
+Inspection: The Scrum artifacts and the progress toward agreed goals must be inspected frequently and diligently to detect potentially undesirable variances or problems. To help with inspection, Scrum provides cadence in the form of its five events.
+
+
+Adaptation: A Scrum Team is expected to adapt the moment it learns anything new through inspection.
+Transparency enables inspection > Inspection enables adaptation > Adaptation
+
+
+Test Leader/Manager : 
+Role : Oversee the entire Testing Process
+
+Activities : 
+Scope Definition
+Monitor Testing Activities
+Allocating Resources
+Ensure the timeline
+
+Test Planning : 
+Planning : 
+Testing objective
+schedules
+approach
+scope
+resources
+entry and exit criteria
+
+Quality Assurance : 
+
+
+Quality Control : 
+
+
+Testing vs Debugging
+
+Testing :
+Identify defects in software
+Tester
+
+
+Debugging : 
+Analyzing and fixing the defects
+developer
+white box testing
+
+
+Treacibility : 
+
+A traceability matrix (TM) in software testing is a document that tracks requirements and test cases throughout the development process. It's also known as a Requirements Traceability Matrix (RTM) or test matrix. 
+Purpose Shows that tests have been run, Ensures that all requirements are connected to test cases, Helps identify areas for improvement, and Mitigates future issues. 
+
+
+What's included  : 
+
+requirements, test cases, test results, issues, design elements, and deliverables.
+
+How it's created
+
+Create a table with requirement IDs and descriptions 
+Create a table with test case IDs and link them to requirement IDs 
+Create a table with defect IDs and link them to test case IDs 
+Combine the tables into a single RTM document 
+
+
+Benefits : 
+
+Helps the testing team understand the level of testing that's been done
+Helps identify which requirements produced the most defects
+Helps identify process weaknesses
+
+RTM : 
+
+
+A Requirement treacibility matrix is a document that demonstrates the relationship between requirements and other artifacts. It's used to prove that requirements have been fulfilled. And it typically documents requirements, tests, test results, and issues.
+
+
+
+Use Case Diagram : 
+
+Data Flow Diagram : 
+
+Entity Relationship Diagram : 
+
+
+Popular STLC Phases : 
+
+
+A team can divide the testing process into as many steps as appropriate. The six stages, used by most teams, are:
+
+1. Requirements analysis
+In this phase, the QA team studies the SRS (software requirement specification) from a testing perspective. They communicate with various stakeholders to clarify questions about testability. They also evaluate the possibility of automation.
+
+Deliverables:
+List of all testable requirements
+Automation study report
+
+2. Test Planning
+
+In this phase, the test manager or the test lead will prepare a detailed plan for testing. Activities include determining the testing strategy, choosing the automation tools, and resource planning.
+
+Deliverables:
+Test strategy
+Test plan
+Test effort and cost estimation report
+
+
+3. Test Development
+In this phase, testers prepare test cases, test automation scripts, and test data. Peers and team lead review the test cases once they are ready. The Requirement Traceability Matrix (RTM), which maps the requirements to test cases, is also prepared in this phase. The RTM is a vital document that helps in verifying that test cases have indeed been written for all requirements.
+
+Deliverables:
+Test cases
+Test automation scripts
+Test data
+RTM
+
+
+4. Test Environment Setup : 
+
+In this step, the QA team sets up the software environment based on the hardware and software specifications. If the software is multi-platform, the team will create multiple such environments.
+
+You can start this phase alongside the Test Development phase.
+
+If the software system is ready, testers can also perform smoke testing to verify the validity of the environment.
+
+
+5. Test Execution
+
+The test team starts executing the test cases based on the test plan. Test cases are marked as passed or failed, and corresponding defect reports are prepared and filed in a bug tracking tool. Some modern test management tools can automatically file bugs with relevant details when testers mark a test case as passed or failed.
+
+Once a test run is complete, the product manager will determine if the defects are acceptable or if another round of testing is required, in which case the testers will retest once developers fix the bugs.
+
+Deliverables:
+Test run execution reports
+Defect reports
+6. Test Closure
+Once all the critical issues have been fixed and tested, testing is said to have been completed.
+
+The test team analyzes test artifacts like test cases for improvements in the future or other projects.
+
+A final test closure report that includes all the test metrics of interest is prepared and signed off.

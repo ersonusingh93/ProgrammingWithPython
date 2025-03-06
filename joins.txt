@@ -1,0 +1,99 @@
+1. INNER JOIN: An inner join returns only the matching rows from both tables. It returns the rows that have matching values in both tables.
+
+Syntax:
+
+SELECT table1.column1, table2.column2...
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;
+
+Example:
+
+Consider two tables employees and departments:
+
+Table: employees
+
+emp_id	emp_name	emp_salary	dept_id
+101	John	50000	1
+102	Smith	60000	2
+103	Mary	55000	1
+104	Joe	45000	2
+Table: departments
+
+dept_id	dept_name
+1	HR
+2	IT
+To join these tables based on dept_id column:
+
+SELECT employees.emp_name, departments.dept_name
+FROM employees
+INNER JOIN departments
+ON employees.dept_id = departments.dept_id;
+Output:
+
+emp_name	dept_name
+John	HR
+Smith	IT
+Mary	HR
+Joe	IT
+2. LEFT JOIN: A left join returns all the rows from the left table and matching rows from the right table. If there is no matching row in the right table, it returns null.
+
+Syntax:
+
+SELECT table1.column1, table2.column2...
+FROM table1
+LEFT JOIN table2
+ON table1.column_name = table2.column_name;
+Example:
+
+Consider two tables students and grades:
+
+Table: students
+
+student_id	student_name
+101	John
+102	Smith
+103	Mary
+104	Joe
+Table: grades
+
+student_id	grade
+101	A
+102	B
+104	A
+To join these tables based on student_id column:
+
+SELECT students.student_name, grades.grade
+FROM students
+LEFT JOIN grades
+ON students.student_id = grades.student_id;
+Output:
+
+student_name	grade
+John	A
+Smith	B
+Mary	NULL
+Joe	A
+3. RIGHT JOIN: A right join returns all the rows from the right table and matching rows from the left table. If there is no matching row in the left table, it returns null.
+
+Syntax:
+
+SELECT table1.column1, table2.column2...
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name = table2.column_name;
+Example:
+
+Consider two tables employees and departments:
+
+Table: employees
+
+emp_id	emp_name	emp_salary	dept_id
+101	John	50000	1
+102	Smith	60000	2
+103	Mary	55000	1
+profile
+Checkly
+Promoted
+
+Billboard image
